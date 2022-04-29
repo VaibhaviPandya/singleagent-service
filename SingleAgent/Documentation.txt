@@ -1,0 +1,17 @@
+﻿Single Agent
+	Contain following folder 
+	1.Assets(Contain all resources for this projects)
+	2.Monitor
+
+		-ExtendedServicesController.cs
+			Add services into task and listeining the status of that services.
+
+		-ServiceHelper.cs
+			Help to find status of services using RunManagementEventWatcherForWindowsServices
+		
+		-ServicesStatusEventArgs.cs
+			
+			gunerate get and set(model) method for status 
+
+	-MainForm.cs
+		Contains different services status and display it into the notification bar and set icon to task bar
